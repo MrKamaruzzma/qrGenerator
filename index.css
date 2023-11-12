@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+background-color: #433e3e88;
+}
+.container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 6px 6px 30px #357a7d;
+    border-radius: 8px;
+    width: 30%;
+    height: auto;
+    background-color: #ffffffe9;
+}
+.container p{
+    text-align: center;
+    padding: 20px;
+    /* border-bottom: 10px red; */
+    text-transform: uppercase;
+    color: white;
+    background-color: #357a7d;
+}
+.inputfield {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.inputfield input{
+    padding: 8px;
+    outline: none;
+    width: 80%;
+    font-size: 14px;
+}
+.btnfield{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.btnfield #genBtn{
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #357a7d;
+    color: #fff;
+    transition: .3s;
+    width: 80%;
+}
+.btnfield #genBtn:hover{
+    background-color: #5ba9ad;
+    color: #fff;
+}
+.imagefield{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+/* .imagefield img::after{
+    
+    border: 1px solid;
+    padding:14px;
+} */
+.downfield{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+}
+.downfield button{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(10, 164, 10, 0.891);
+}
+@media screen and (max-width:550px) {
+    .container{
+        width: 60%;
+    }
+    .container p{
+        text-align: center;
+        padding: 15px;
+        /* border-bottom: 10px red; */
+        text-transform: uppercase;
+        color: white;
+        background-color: #357a7d;
+    }
+    .inputfield input{
+        padding: 8px;
+        outline: none;
+        border: 1px solid  #357a7d;
+        border-radius: 6px;
+        width:80%;
+        font-size: 14px;
+    }
+    .imagefield img{
+        width: 150px;
+    }
+    .downfield button{
+        margin: 4px;
+        padding: 7px;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        background-color: rgba(10, 164, 10, 0.891);
+    }
+    .btnfield #genBtn{
+        padding: 7px;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        background-color: #357a7d;
+        color: #fff;
+        transition: .3s;
+        width: 100%;
+    }
+
+}
