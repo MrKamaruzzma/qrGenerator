@@ -109,7 +109,7 @@ background-color: #433e3e88;
     }
     .downfield button{
         margin: 10px;
-        padding: 8px;
+        padding: 10px;
         color: white;
         cursor: pointer;
         border: none;
@@ -125,7 +125,7 @@ background-color: #433e3e88;
         background-color: #357a7d;
         color: #fff;
         transition: .3s;
-        width: 100%;
+        width: 80%;
     }
 
 }
