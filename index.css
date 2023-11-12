@@ -118,7 +118,8 @@ background-color: #433e3e88;
         background-color: rgba(10, 164, 10, 0.891);
     }
     .btnfield #genBtn{
-        padding: 7px;
+        padding: 10px;
+        margin: 6px 0;
         font-size: 14px;
         cursor: pointer;
         border: none;
@@ -126,7 +127,7 @@ background-color: #433e3e88;
         background-color: #357a7d;
         color: #fff;
         transition: .3s;
-        width: 70%;
+        width: 80%;
     }
 
 }
